@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Om Wani — Cloud & DevOps focused Computer Engineering fresher portfolio." />
+  <title>Omiii | Cloud & DevOps Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="progress"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home"><span>Om </span> Wani</a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> Open to opportunities</p>
+        <h1>Building my path<br>in <em>Cloud & DevOps.</em></h1>
+        <p class="lead">
+          I'm Om Wani — a Computer Engineering fresher focused on AWS, Linux, Python,
+          networking and DevOps. I learn by building, breaking, fixing and documenting.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my work <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Let's connect</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>AWS</strong><span>Cloud focus</span></div>
+          <div><strong>Linux</strong><span>Hands-on practice</span></div>
+          <div><strong>Python</strong><span>Programming</span></div>
+        </div>
+      </div>
+      <div class="terminal-card reveal">
+        <div class="terminal-top"><span></span><span></span><span></span><b>omiii@cloud:~</b></div>
+        <div class="terminal-body">
+          <p><i>$</i> whoami</p>
+          <h3>wani om dinesh</h3>
+          <p><i>$</i> current_focus</p>
+          <h3 class="cyan">AWS • Linux • DevOps</h3>
+          <p><i>$</i> status</p>
+          <h3 class="green">learning → building → improving_</h3>
+          <div class="scanline"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">About</div>
+      <div class="two-col">
+        <div>
+          <h2>Not just learning tech.<br><span>Learning how it works.</span></h2>
+        </div>
+        <div>
+          <p>
+           I am a 2026 graduate with a B.E. in Computer Engineering from Dr. D. Y. Patil College of Engineering and Innovation. 
+           I am passionate about Cloud Computing and DevOps, with a strong interest in AWS, Linux, Python, and networking. 
+           I am currently focused on building practical skills in cloud technologies, infrastructure, automation, and DevOps practices, 
+           with the goal of starting my career in the Cloud and DevOps domain.
+          </p>
+          <p>
+            My approach is practical: understand the concept, implement it, troubleshoot
+            what breaks, and keep the useful notes for the next build.
+          </p>
+          <div class="facts">
+            <div><small>EDUCATION</small><b>B.E. Computer Engineering</b></div>
+            <div><small>LOCATION</small><b>Pune, India</b></div>
+            <div><small>ROLE</small><b>Fresher / Entry Level</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-label">Skills</div>
+      <div class="section-heading">
+        <h2>Tools I’m <span>building with.</span></h2>
+        <p>A growing toolkit aimed at cloud infrastructure and reliable software delivery.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="icon">☁</div><h3>Cloud</h3><p>AWS, EC2, S3, IAM, cloud fundamentals</p><div class="tags"><b>AWS</b><b>EC2</b><b>S3</b><b>IAM</b></div></article>
+        <article class="skill-card"><div class="icon">⌘</div><h3>Linux</h3><p>File management, permissions, processes, SSH and command line</p><div class="tags"><b>Ubuntu</b><b>SSH</b><b>Bash</b></div></article>
+        <article class="skill-card"><div class="icon">⟨/⟩</div><h3>Programming</h3><p>Python fundamentals, problem solving and scripting</p><div class="tags"><b>Python</b><b>DSA</b><b>SQL</b></div></article>
+        <article class="skill-card"><div class="icon">⌁</div><h3>Networking</h3><p>Core networking concepts used in cloud environments</p><div class="tags"><b>TCP/IP</b><b>DNS</b><b>NAT</b><b>DHCP</b></div></article>
+        <article class="skill-card"><div class="icon">⚙</div><h3>DevOps</h3><p>Learning the tools and practices behind automation and deployment</p><div class="tags"><b>Git</b><b>GitHub</b><b>CI/CD</b><b>Nginx</b></div></article>
+        <article class="skill-card"><div class="icon">◈</div><h3>Web & Data</h3><p>Web development basics, databases and backend concepts</p><div class="tags"><b>HTML</b><b>CSS</b><b>SQL</b><b>DBMS</b></div></article>
+      </div>
+    </section>
+
+    <section class="section project-section" id="projects">
+      <div class="section-label">Featured project</div>
+      <div class="project-card">
+        <div class="project-copy">
+          <p class="project-number">Engineering project</p>
+          <h2>SAFEGUARD</h2>
+          <h3>Virtual Surveillance Using AI</h3>
+          <p>
+            A multimodal AI-based surveillance system designed to detect and flag
+            potentially anomalous behavior using visual, audio and browser activity signals.
+          </p>
+          <div class="project-tech">
+            <span>YOLOv8n</span><span>Haar Cascade</span><span>HOG-SVM</span>
+            <span>MFCC</span><span>FFT</span><span>Flask</span><span>Python</span>
+          </div>
+          <ul>
+            <li>Face detection using Haar Cascade and HOG-SVM methods.</li>
+            <li>Gaze tracking using facial landmarks and geometric ratios.</li>
+            <li>Object detection with YOLOv8n trained on a custom dataset.</li>
+            <li>Audio analysis using FFT/MFCC with an SVM classifier.</li>
+            <li>Centralized Flask dashboard with rule-based anomaly scoring.</li>
+          </ul>
+        </div>
+        <div class="project-metrics">
+          <div><strong>25–30</strong><span>FPS real-time performance</span></div>
+          <div><strong>~50ms</strong><span>YOLOv8n inference</span></div>
+          <div><strong>90%</strong><span>Detection rate in tested scenario</span></div>
+          <div class="project-note">Multimodal AI<br><span>Vision + Audio + Activity</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="section-label">Journey</div>
+      <div class="section-heading">
+        <h2>Learning in <span>public.</span></h2>
+        <p>The direction is simple: learn the fundamentals, build consistently, and become job-ready.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span>01</span><div><small>FOUNDATION</small><h3>Networking & Linux</h3><p>OSI/TCP-IP, IP addressing, DNS, DHCP, NAT, Linux commands, permissions and SSH.</p></div></div>
+        <div class="timeline-item"><span>02</span><div><small>CLOUD</small><h3>AWS Hands-on</h3><p>Working with EC2, S3, IAM, key pairs, security groups and cloud infrastructure basics.</p></div></div>
+        <div class="timeline-item"><span>03</span><div><small>DEVOPS</small><h3>From manual to automated</h3><p>Building knowledge around Git, deployment, Nginx, LAMP/LEMP and CI/CD practices.</p></div></div>
+        <div class="timeline-item"><span>04</span><div><small>NEXT</small><h3>Deeper Cloud & DevOps</h3><p>Keep improving AWS, automation, containers, infrastructure and production-ready workflows.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section certification">
+      <div class="cert-box">
+        <div class="cert-mark">AWS</div>
+        <div><small>CERTIFICATION / BADGE</small><h2>AWS Educate — Introduction to Cloud 101</h2><p>Issued by Amazon Web Services Training and Certification.</p></div>
+        <div class="cert-arrow">↗</div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-label">Contact</div>
+      <div class="contact-box">
+        <p class="eyebrow">Have an opportunity?</p>
+        <h2>Let’s build something<br><span>useful.</span></h2>
+        <p>I’m interested in entry-level opportunities, internships and projects around Cloud, AWS and DevOps.</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="omwani84@gamil.com">Email me ↗</a>
+          <a class="btn ghost" href="https://github.com/omwani24" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn ghost" href="www.linkedin.com/in/om-w-786569257" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Omiii</span><span>Built with curiosity + consistency.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
