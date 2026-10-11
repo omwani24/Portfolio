@@ -1,4 +1,4 @@
-# Omiii Portfolio
+# Om Wani Portfolio
 
 A responsive personal portfolio for Omiii (Wani Om Dinesh), focused on Cloud Computing, AWS, Linux, Python, Networking and DevOps.
 
